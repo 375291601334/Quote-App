@@ -292,7 +292,7 @@
     /***/
     function _(module, exports, __webpack_require__) {
       __webpack_require__(
-      /*! D:\aws-course\ngQuote-develop\node_modules\@angular-devkit\build-angular\src\webpack\es5-polyfills.js */
+      /*! D:\aws-course\Quote-App\client\node_modules\@angular-devkit\build-angular\src\webpack\es5-polyfills.js */
       "voQr");
 
       __webpack_require__(
@@ -300,7 +300,7 @@
       "R0gw");
 
       module.exports = __webpack_require__(
-      /*! D:\aws-course\ngQuote-develop\src\polyfills.ts */
+      /*! D:\aws-course\Quote-App\client\src\polyfills.ts */
       "hN/g");
       /***/
     },

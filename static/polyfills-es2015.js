@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\aws-course\ngQuote-develop\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! D:\aws-course\Quote-App\client\src\polyfills.ts */"hN/g");
 
 
 /***/ }),
