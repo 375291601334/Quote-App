@@ -2,7 +2,7 @@ const express = require('express');
 const routes = require('./app/quotesRouter');
 
 const app = express();
-const port = 8000;
+const port = process.env.APP_PORT || 8080;
 
 app.use(express.static('./static'));
 
@@ -15,5 +15,7 @@ app.get('/ping', ( req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Quote app listening at http://localhost:${port}`)
+  console.log(
+    `Quote app listening at http://localhost:${port} in ${process.env.NODE_ENV} mode`
+  );
 });
