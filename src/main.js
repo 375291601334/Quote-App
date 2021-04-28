@@ -20,6 +20,7 @@ const server = app.listen(port, () => {
   );
 });
 
+/* eslint-disable no-process-exit */
 const sigs = ['SIGINT', 'SIGTERM', 'SIGQUIT'];
 sigs.forEach(sig => {
   process.on(sig, () => {

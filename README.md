@@ -16,6 +16,11 @@ npm run build
 npm start
 ```
 
+## Linting:
+```sh
+npm run lint
+```
+
 ## Environmental Variables
 File `.env` contains next environmental variables:
 
