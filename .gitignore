@@ -4,4 +4,5 @@ dist
 .vscode
 coverage
 
-static
+static/*
+!static/.gitkeep
