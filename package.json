@@ -14,7 +14,8 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "quotesy": "^1.0.5"
+    "quotesy": "^1.0.5",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
