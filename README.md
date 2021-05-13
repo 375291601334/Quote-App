@@ -1,25 +1,13 @@
 # Quote-App
 
-## Installing dependencies:
-```sh
-npm i
-```
-## Running:
-```sh
-npm run build
-npm run dev
-```
+## Running with nginx:
+1) Install [Docker](https://docs.docker.com/get-docker/) for you operation system.
+2) Run `npm run build` to build frontend.
+4) Run `npm run dev` or `npm start` to start backend.
+3) Run `docker-compose up --build` to start docker process.
+5) App will be avaliable on https://localhost.
 
-## Production:
-```sh
-npm run build
-npm start
-```
-
-## Linting:
-```sh
-npm run lint
-```
+<br />
 
 ## Environmental Variables
 File `.env` contains next environmental variables:
@@ -40,4 +28,41 @@ You should see next messages in console:
 SIGINT signal received !!!
 Closing http server.
 Http server closed.
+```
+
+<br />
+
+## Useful Commands:
+### Installing dependencies:
+```sh
+npm i
+```
+### Build frontend:
+```sh
+npm run build
+```
+
+### Start backend (development mode):
+```sh
+npm run dev
+```
+
+### Start backend (production mode):
+```sh
+npm start
+```
+
+### Linting:
+```sh
+npm run lint
+```
+
+### Clean static folder:
+```sh
+npm run clean
+```
+
+### Start docker process:
+```sh
+docker-compose up --build
 ```

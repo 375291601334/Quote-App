@@ -7,8 +7,8 @@ export const environment = {
   isAuthorizationEnabled: false,
   apiUrls: {
     auth: '',
-    quote: '/api', // Put here your QUOTE API BASE URL. E.g.: api or https://quote.com/api
-    share: '/api', // Put here your SHARE API BASE URL. E.g.: api or https://share.com/api
+    quote: 'http://localhost:8000/api', // Put here your QUOTE API BASE URL. E.g.: api or https://quote.com/api
+    share: 'http://localhost:8000/api', // Put here your SHARE API BASE URL. E.g.: api or https://share.com/api
   },
 };
 
