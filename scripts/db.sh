@@ -50,7 +50,7 @@ function list {
     echo -e "\nInversed users list:"
     i=${#list[@]}
     while (( $i > 0 )); do
-      echo "$i. ${list[i-1]}"
+      echo -n "$i. ${list[i-1]}"
       ((--i))
     done
   else
