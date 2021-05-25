@@ -9,8 +9,8 @@ class Quote {
     this.tags = tags || '';
     this.isDeleted = isDeleted || false;
     this.createdBy = createdBy || 'Quote App';
-    this.createdAt = createdAt || Date().now();
-    this.updatedAt = updatedAt || Date().now();
+    this.createdAt = createdAt || Date.now();
+    this.updatedAt = updatedAt || Date.now();
   }
 }
 
@@ -47,7 +47,7 @@ const editQuote = (id, quote) => {
       editedQuote = new Quote({
         ...item,
         ...quote,
-        updatedAt: Date().now(),
+        updatedAt: Date.now(),
       });
       return editedQuote;
     }
@@ -66,7 +66,7 @@ const deleteQuote = (id) => {
       deletedQuote = {
         ...quote,
         isDeleted: true,
-        updatedAt: Date().now(),
+        updatedAt: Date.now(),
       };
       return deletedQuote;
     }

@@ -1,12 +1,12 @@
 const express = require('express');
+const cors = require('cors');
 const { pingRouter, quotesRouter } = require('./app/routes');
 
 const app = express();
 const port = process.env.APP_PORT || 8080;
 
-app.use(express.static('./static'));
-
 app.use(express.json());
+app.use(cors());
 
 app.use('/ping', pingRouter);
 app.use('/api/quotes', quotesRouter);

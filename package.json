@@ -4,6 +4,7 @@
   "type": "commonjs",
   "main": "main.js",
   "scripts": {
+    "clean": "rm -rf static/*",
     "build": "npm run build --prefix client && cp -r client/dist/* static",
     "start": "node -r dotenv/config ./src/main.js",
     "dev": "nodemon -r dotenv/config ./src/main.js",
@@ -12,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "quotesy": "^1.0.5",
