@@ -6,3 +6,5 @@ coverage
 
 static/*
 !static/.gitkeep
+
+keys
