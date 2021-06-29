@@ -1,4 +1,4 @@
-FROM node:16-alpine as builder
+FROM "072203977998.dkr.ecr.us-east-2.amazonaws.com/base-images:node-16.3.0-alpine" as builder
 WORKDIR /quoteAppFrontend
 COPY --chown=node:node ../client/package*.json ./
 RUN npm ci --only=production
