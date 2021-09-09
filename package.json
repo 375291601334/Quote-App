@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "clean": "rm -rf static/*",
-    "build": "npm run build --prefix client && cp -r client/dist/* static",
+    "build": "npm i --prefix client && npm run build --prefix client && cp -r client/dist/* static",
     "start": "node -r dotenv/config ./src/main.js",
     "dev": "nodemon -r dotenv/config ./src/main.js",
     "lint": "eslint --ext .js src"
