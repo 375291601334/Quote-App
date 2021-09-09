@@ -1,16 +1,13 @@
 # Quote-App
 
-## Running with nginx:
+## Running with docker:
 1) Install [Docker](https://docs.docker.com/get-docker/) for you operation system.
-2) Run `npm run build` to build frontend.
-4) Run `npm run dev` or `npm start` to start backend.
-3) Run `docker-compose up --build` to start docker process.
-5) App will be avaliable on https://localhost.
+2) Run `docker-compose up --build` to start docker process.
+3) App will be avaliable on https://localhost.
 
 <br />
 
 ## Environmental Variables
-File `.env` contains next environmental variables:
 
 | Variable          | Description |
 |-------------------|-------------|

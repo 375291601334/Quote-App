@@ -1,9 +1,24 @@
 version: "3.8"
 services:
-  nginx:
+
+  backend:
     restart: always
     build:
+      dockerfile: dockerFiles/backend.Dockerfile
+      context: .
+    ports:
+      - 8000:8000
+    environment:
+      - NODE_ENV=production
+      - APP_PORT=8000
+
+  frontend:
+    restart: always
+    build:
+      dockerfile: dockerFiles/frontend.Dockerfile
       context: .
     ports:
       - 80:80
       - 443:443
+    environment:
+      - ENV_CONFIGURATION=production
