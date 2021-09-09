@@ -7,4 +7,5 @@ coverage
 static/*
 !static/.gitkeep
 
+.accessKey
 keys
