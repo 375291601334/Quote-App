@@ -5,8 +5,12 @@ const { pingRouter, quotesRouter } = require('./app/routes');
 const app = express();
 const port = process.env.APP_PORT || 8080;
 
+app.use(cors({
+  origin: ['http://quote-app-front.s3-website.us-east-2.amazonaws.com/', 'http://localhost:4200'],
+  optionsSuccessStatus: 200,
+}));
+
 app.use(express.json());
-app.use(cors());
 
 app.use('/ping', pingRouter);
 app.use('/api/quotes', quotesRouter);
