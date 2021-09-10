@@ -1,4 +1,18 @@
-# Quote-App
+# QuoteApp
+
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=375291601334_Quote-App)](https://sonarcloud.io/dashboard?id=375291601334_Quote-App)
+
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=375291601334_Quote-App&metric=bugs)](https://sonarcloud.io/dashboard?id=375291601334_Quote-App)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=375291601334_Quote-App&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=375291601334_Quote-App)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=375291601334_Quote-App&metric=code_smells)](https://sonarcloud.io/dashboard?id=375291601334_Quote-App)
+
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=375291601334_Quote-App&metric=sqale_index)](https://sonarcloud.io/dashboard?id=375291601334_Quote-App)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=375291601334_Quote-App&metric=coverage)](https://sonarcloud.io/dashboard?id=375291601334_Quote-App)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=375291601334_Quote-App&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=375291601334_Quote-App)
+
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=375291601334_Quote-App&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=375291601334_Quote-App)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=375291601334_Quote-App&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=375291601334_Quote-App)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=375291601334_Quote-App&metric=security_rating)](https://sonarcloud.io/dashboard?id=375291601334_Quote-App)
 
 ## Running with docker:
 1) Install [Docker](https://docs.docker.com/get-docker/) for you operation system.
