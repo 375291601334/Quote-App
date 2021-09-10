@@ -1,6 +1,6 @@
 const AWS = require('aws-sdk');
 
-exports.handler = async (event) => {
+const handler = async (event) => {
   if (event.body !== null && event.body !== undefined) {
     const body = JSON.parse(event.body);
 
@@ -72,3 +72,5 @@ function errorResponse(message) {
   };
   return response;
 }
+
+module.exports = handler;
